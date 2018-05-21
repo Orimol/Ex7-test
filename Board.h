@@ -8,8 +8,8 @@
 using namespace std;
 
 class Board{
-private:
   size_t size;
+private:
   Piece **board;
 
 
