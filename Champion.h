@@ -4,7 +4,7 @@
 /*
 	This player should win the XYPlayer and YXPlayer asstratagy
 */
-const class Champion: public Player {
+class Champion: public Player {
 public:
 	const string name() const override { return "Ori&Yoav"; }
 	const Coordinate play(const Board& board) override;

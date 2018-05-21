@@ -3,11 +3,11 @@
 
 const Coordinate Champion::play(const Board& board) {
 
-	static Coordinate c{0, board.size};
-	static Coordinate d{board.size, 0};
-	Coordinate zero{0,0};
-	Coordinate zo{0,1};
-	Coordinate oz{1,0};
+	static const Coordinate c{0, board.size};
+	static const Coordinate d{board.size, 0};
+	const Coordinate zero{0,0};
+	const Coordinate zo{0,1};
+	const Coordinate oz{1,0};
 	int counter=0;
 	int count_down=board.size;
 	if (board[zero]=='.') return c;
