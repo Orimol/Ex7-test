@@ -16,7 +16,7 @@ private:
 public:
 //Constractor and Destractor
     Board (size_t newsize);
-    Board (const Board &b);
+    Board (Board &b);
     ~Board();
 
 //Methods
@@ -28,6 +28,8 @@ Board& operator = (char c);
 friend std::ostream& operator<<(std::ostream& o, Board const& b);
 
 Piece& operator [] (const Coordinate& c);
+
+//char operator [] (const Coordinate&) const;
 
 }
 ;
