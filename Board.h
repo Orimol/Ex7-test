@@ -8,7 +8,7 @@
 using namespace std;
 
 class Board{
-public:size_t size;
+public:uint size;
 private:
   Piece **board;
 
