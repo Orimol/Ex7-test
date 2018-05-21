@@ -12,8 +12,8 @@ size_t Coordinate::getJ()const{
 }
 
 
-//Coordinate& Coordinate::operator = (Coordinate newc){
-//  i = newc.getI();
-//  j = newc.getJ();
-//  return *this;
-//}
+Coordinate& Coordinate::operator = (Coordinate newc){
+  i = newc.getI();
+  j = newc.getJ();
+  return *this;
+}

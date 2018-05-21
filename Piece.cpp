@@ -21,3 +21,8 @@ bool Piece::operator == (char c)const{
   if (value==c) return true;
   else return false;
 }
+
+bool Piece::operator != (const char c) const{
+  if (value!=c) return true;
+  else return false;
+}

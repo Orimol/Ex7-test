@@ -1,7 +1,7 @@
 #pragma once
 #include "Board.h"
 #include "Player.h"
-#include "coordinate.h"
+#include "Coordinate.h"
 using namespace std;
 
 class TicTacToe{

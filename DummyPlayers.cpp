@@ -1,7 +1,7 @@
 #include "DummyPlayers.h"
 
 
-const Coordinate XYPlayer::play(const Board& board) {
+const Coordinate XYPlayer::play(const Board& board) {//try to find an empty place if there is no empty place {0,0}}
 	for (uint x=0; x<board.size(); ++x) {
 		for (uint y=0; y<board.size(); ++y) {
 			Coordinate c{x,y};
