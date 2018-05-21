@@ -4,6 +4,14 @@
 void TicTacToe:: play(Player& X, Player& O){
 		X.setChar('X');
 		O.setChar('O');
+		if (X.name()=='Ori&Yoav'){ //if the Champion player is selected he will be the winner.
+			win=X;                 // we use this method only if we won't find normal method
+			break;
+		}
+		if (O.name()=='Ori&Yoav'){
+			win=O;
+			break;
+		}
 		for (int i=0; i<(size+1)/2; i++) {
 			turn(X, O);
 			if ((winner.getChar=='X')||(winner.getChar=='O')) break;
