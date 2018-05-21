@@ -1,2 +1,2 @@
-# Ex7-test
-test for EX7
+# ex7
+Ex7 in CPP course
