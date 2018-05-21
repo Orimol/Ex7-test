@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include"Coordinate.h"
+#include"Board.h"
 using namespace std;
 
 class Player{
