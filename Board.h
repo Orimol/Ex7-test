@@ -27,7 +27,7 @@ Board& operator = (char c);
 
 friend std::ostream& operator<<(std::ostream& o, Board const& b);
 
-Piece& operator [] (const Coordinate& c);
+const Piece& operator [] (const Coordinate& c);
 
 }
 ;
