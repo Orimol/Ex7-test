@@ -6,13 +6,13 @@ using namespace std;
 
 class Player{
 protected:
-	char pChar;
+	char myChar;
 
 public:
 
-  void setChar(char c) { pChar = c; }
+  void setChar(char c) { myChar = c; }
 
-	char getChar() const { return pChar; }
+	char getChar() const { return myChar; }
 
   virtual const string name()const;
 

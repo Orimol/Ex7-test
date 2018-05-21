@@ -14,7 +14,7 @@ public:
     TicTacToe (size_t size):gameBoard(size){};
 
 //methods
-    void play(player X, Player O);
+    void play(Player X, Player O);
     void turn(Player& first, Player& second);
     bool checkRow(size_t row, char c);
     bool checkCol(size_t col, char c);
