@@ -2,7 +2,7 @@
 
 
 const Coordinate Champion::play(const Board& board) {
-	for (uint x=0; x<board.size(); ++x) {
+	for (size_t x=0; x<board.size(); ++x) {
 		for (uint y=0; y<board.size(); ++y) {
 			// A winning play
 		}
