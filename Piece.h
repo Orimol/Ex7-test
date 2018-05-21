@@ -21,5 +21,5 @@ public:
 
   Piece& operator = (char c);
 
-  bool operator == (char c)const;
+  bool operator == (const char c)const;
 };
