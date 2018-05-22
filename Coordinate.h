@@ -10,6 +10,7 @@ private:
 public:
 //Constractor
     Coordinate (size_t i, size_t j);
+    Coordinate();
 
     size_t getI()const;
     size_t getJ()const;
