@@ -5,7 +5,7 @@
 using namespace std;
 
 class TicTacToe{
-
+private:
   Board gameBoard;
   Player* win;
 
@@ -24,4 +24,5 @@ public:
     const Board& board()const;
     const Player& winner()const;
     bool isWinner(size_t i, size_t j, char c);
+    bool isTie(Board& board);
 };
