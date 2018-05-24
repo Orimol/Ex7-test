@@ -92,7 +92,7 @@ void TicTacToe:: turn(Player& first, Player& second) {
 	}
 
 	bool TicTacToe::checkDiagnol_topright(char c){
-		for (size_t i=gameBoard.size()-1; i>0; --i){
+		for (size_t i=gameBoard.size()-1; i>=0; --i){
 			if(gameBoard[{i,i}]!= c) return false;
 		}
 		return true;
